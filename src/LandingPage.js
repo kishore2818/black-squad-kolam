@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-
 const LandingPage = () => {
   const [prompt, setPrompt] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
