@@ -30,7 +30,7 @@ const LandingPage = () => {
     setError(null);
     
     try {
-      const response = await fetch(`http://localhost:5000/images/group/${gridSize}`);
+      const response = await fetch(`https://kolam-backend-1-s6v0.onrender.com/images/group/${gridSize}`);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
