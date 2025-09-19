@@ -1,54 +1,68 @@
 
 
-// import React from 'react';
-// import LandingPage from './LandingPage';
-// import './App.css';
+// // import React from 'react';
+// // import LandingPage from './LandingPage';
+// // import './App.css';
 
-// function App() {
+// // function App() {
+// //   return (
+// //     <div className="App">
+// //       <LandingPage />
+// //     </div>
+// //   );
+// // }
+
+// // export default App;
+
+
+
+
+// // import React from 'react';
+// // import LandingPage from './LandingPage';
+// // import './App.css';
+
+// // function App() {
+// //   return (
+// //     <div className="App">
+// //       <LandingPage />
+// //     </div>
+// //   );
+// // }
+
+// // export default App;
+
+
+
+
+// import React from 'react';
+// // import { View, StyleSheet } from 'react-native';
+// import LandingPage from './LandingPage';
+
+// export default function App() {
 //   return (
-//     <div className="App">
+//     <View style={styles.container}>
 //       <LandingPage />
-//     </div>
+//     </View>
 //   );
 // }
 
-// export default App;
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//     backgroundColor: '#fff',
+//   },
+// });
 
 
 
-
-// import React from 'react';
-// import LandingPage from './LandingPage';
-// import './App.css';
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <LandingPage />
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
-
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import LandingPage from './LandingPage';
+import React from "react";
+import LandingPage from "./LandingPage";
+import "./App.css";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <div className="app-container">
       <LandingPage />
-    </View>
+    </div>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-  },
-});
