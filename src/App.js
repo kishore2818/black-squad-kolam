@@ -1,25 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+
+// import React from 'react';
+// import LandingPage from './LandingPage';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <LandingPage />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+// import React from 'react';
+// import LandingPage from './LandingPage';
+// import './App.css';
+
+// function App() {
+//   return (
+//     <div className="App">
+//       <LandingPage />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+
+
+import React from 'react';
+import { View, StyleSheet } from 'react-native';
+import LandingPage from './LandingPage';
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <View style={styles.container}>
+      <LandingPage />
+    </View>
   );
 }
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+  },
+});
